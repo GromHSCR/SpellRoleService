@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpellRoleService", "SpellRoleService\SpellRoleService.csproj", "{3ECE2689-8FE1-4A68-88F1-09AB28D22D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpellRoleService.Tests", "SpellRoleService.Tests\SpellRoleService.Tests.csproj", "{EE26ACD6-C927-4C0F-9C84-CE073A2741A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ECE2689-8FE1-4A68-88F1-09AB28D22D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECE2689-8FE1-4A68-88F1-09AB28D22D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECE2689-8FE1-4A68-88F1-09AB28D22D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECE2689-8FE1-4A68-88F1-09AB28D22D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE26ACD6-C927-4C0F-9C84-CE073A2741A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE26ACD6-C927-4C0F-9C84-CE073A2741A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE26ACD6-C927-4C0F-9C84-CE073A2741A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE26ACD6-C927-4C0F-9C84-CE073A2741A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
