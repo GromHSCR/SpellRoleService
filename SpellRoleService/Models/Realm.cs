@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SpellRoleService.Models
 {
-	public class RealmViewModel : BaseEntity
+	public class Realm : BaseEntity
 	{
 		public string Name { get; set; }
 

@@ -63,9 +63,9 @@ namespace SpellRoleService.Controllers
 			return this.View();
 		}
 
-		public async Task<ActionResult> AddRealm(RealmViewModel model)
+		public async Task<Realm> AddRealm(Realm model)
 		{
-			_roleServiceContext.Realms.Add(model);
+			return this._roleServiceContext.Realms.Add(model);
 		}
 	}
 }

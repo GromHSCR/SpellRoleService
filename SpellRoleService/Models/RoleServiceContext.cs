@@ -8,7 +8,7 @@ namespace SpellRoleService.Models
 {
 	public class RoleServiceContext : DbContext
 	{
-		public DbSet<RealmViewModel> Realms { get; set; }
+		public DbSet<Realm> Realms { get; set; }
 		
 		public DbSet<Room> Rooms { get; set; }
 		

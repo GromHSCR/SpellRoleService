@@ -234,7 +234,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Message.cs" />
-    <Compile Include="Models\RealmViewModel.cs" />
+    <Compile Include="Models\Realm.cs" />
     <Compile Include="Models\RoleServiceContext.cs" />
     <Compile Include="Models\Room.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
